@@ -1,0 +1,45 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D328312-9D0D-467E-999E-84C02FA11C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrumiTech.RaspberryPi.BabyMonitor", "src\UrumiTech.RaspberryPi.BabyMonitor\UrumiTech.RaspberryPi.BabyMonitor.csproj", "{B17FB025-FA0E-46A0-AB2B-8B7FAA2E98D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrumiTech.RaspberryPi.BabyMonitor.Tests", "src\UrumiTech.RaspberryPi.BabyMonitor.Tests\UrumiTech.RaspberryPi.BabyMonitor.Tests.csproj", "{86F32081-8024-43BE-987E-4BE5E60D5C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrumiTech.Misc.BabyMonitorLogic", "src\UrumiTech.Misc.BabyMonitorLogic\UrumiTech.Misc.BabyMonitorLogic.csproj", "{FC122127-B202-4838-84C7-22C7E4A11504}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{61EB9E5D-9787-4174-AFA1-019E99EA2FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrumiTech.Misc.BabyMonitorService", "src\UrumiTech.Misc.BabyMonitorService\UrumiTech.Misc.BabyMonitorService.csproj", "{4170535B-2D92-4655-8005-5E95545FA10B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B17FB025-FA0E-46A0-AB2B-8B7FAA2E98D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17FB025-FA0E-46A0-AB2B-8B7FAA2E98D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17FB025-FA0E-46A0-AB2B-8B7FAA2E98D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17FB025-FA0E-46A0-AB2B-8B7FAA2E98D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F32081-8024-43BE-987E-4BE5E60D5C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F32081-8024-43BE-987E-4BE5E60D5C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F32081-8024-43BE-987E-4BE5E60D5C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F32081-8024-43BE-987E-4BE5E60D5C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC122127-B202-4838-84C7-22C7E4A11504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC122127-B202-4838-84C7-22C7E4A11504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC122127-B202-4838-84C7-22C7E4A11504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC122127-B202-4838-84C7-22C7E4A11504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4170535B-2D92-4655-8005-5E95545FA10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4170535B-2D92-4655-8005-5E95545FA10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4170535B-2D92-4655-8005-5E95545FA10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4170535B-2D92-4655-8005-5E95545FA10B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B17FB025-FA0E-46A0-AB2B-8B7FAA2E98D1} = {61EB9E5D-9787-4174-AFA1-019E99EA2FBC}
+		{86F32081-8024-43BE-987E-4BE5E60D5C5B} = {2D328312-9D0D-467E-999E-84C02FA11C0C}
+		{FC122127-B202-4838-84C7-22C7E4A11504} = {2D328312-9D0D-467E-999E-84C02FA11C0C}
+		{4170535B-2D92-4655-8005-5E95545FA10B} = {2D328312-9D0D-467E-999E-84C02FA11C0C}
+	EndGlobalSection
+EndGlobal
