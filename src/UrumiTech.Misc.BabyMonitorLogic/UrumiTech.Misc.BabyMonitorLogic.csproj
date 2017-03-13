@@ -30,9 +30,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Contracts\IBabyTemperatureMonitorManager.cs" />
+    <Compile Include="Contracts\IBabyTemperatureManager.cs" />
     <Compile Include="BabyTemperatureManager.cs" />
   </ItemGroup>
   <ItemGroup>

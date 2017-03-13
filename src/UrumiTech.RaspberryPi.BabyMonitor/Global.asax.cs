@@ -9,9 +9,13 @@ namespace UrumiTech.RaspberryPi.BabyMonitor
 	{
 		protected void Application_Start()
 		{
+			AutoFacConfig.SetupContainer();
 			AreaRegistration.RegisterAllAreas();
-			GlobalConfiguration.Configure(WebApiConfig.Register);
+			WebApiConfig.Register(GlobalConfiguration.Configuration);
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+			GlobalConfiguration.Configuration.EnsureInitialized();
+
 		}
 	}
 }

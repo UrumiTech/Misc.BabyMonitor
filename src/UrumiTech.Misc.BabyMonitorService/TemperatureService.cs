@@ -9,9 +9,6 @@ namespace UrumiTech.Misc.BabyMonitorService
 	{
 		StringBuilder outputBuilder;
 		StringBuilder errorBuilder;
-		public TemperatureService()
-		{
-		}
 
 		public async Task<string> GetTemperature()
 		{
@@ -24,15 +21,13 @@ namespace UrumiTech.Misc.BabyMonitorService
 
 		public string Readline(Process proc)
 		{ 
-			string line;
+			string line= string.Empty;
 			while (!proc.StandardOutput.EndOfStream)
 			{
 				line = proc.StandardOutput.ReadLine();
 				// do something with line
 			}
 
-			//Found 1 devices
-			//Device #0: 26.1°C 78.9°F
 			return line;
 
 		}

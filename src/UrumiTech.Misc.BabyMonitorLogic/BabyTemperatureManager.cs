@@ -4,7 +4,7 @@ using UrumiTech.Misc.BabyMonitorService;
 
 namespace UrumiTech.Misc.BabyMonitorLogic
 {
-	public class BabyTemperatureManager:IBabyTemperatureMonitorManager
+	public class BabyTemperatureManager:IBabyTemperatureManager
 	{
 		ITemperatureService _TemperatureService;
 
@@ -16,6 +16,11 @@ namespace UrumiTech.Misc.BabyMonitorLogic
 		public async Task<string> GetTemperature()
 		{
 			return await _TemperatureService.GetTemperature();
+		}
+
+		public async Task<string> RunTest()
+		{ 
+			return await Task.Run(() => "This is a test");
 		}
 	}
 }
